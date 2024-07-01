@@ -78,8 +78,19 @@ import math
 # print(f"O dia é {dia}, o mês é {mes} e o ano é {ano}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
-string1 = input("Digite a primeira String: ")
-string2 = input("Digite a segunda String: ")
-string_concatenada = string1 + string2
-print(string_concatenada)
+# string1 = input("Digite a primeira String: ")
+# string2 = input("Digite a segunda String: ")
+# string_concatenada = string1 + string2
+# print(string_concatenada)
+
+# 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+bool1 = True
+bool2 = True
+resultado = bool1 and bool2
+print("O resultado do AND é :", resultado)
+
+# 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+# 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+# 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+# 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
