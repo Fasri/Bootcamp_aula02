@@ -96,10 +96,15 @@ import math
 # print("O resultado do OR é :", resultado)
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
-bool1 = False
-bool_not = not bool1
-print("Resultado do NOT é: ", bool_not)
+# bool1 = False
+# bool_not = not bool1
+# print("Resultado do NOT é: ", bool_not)
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+numero1 = 4
+numero2 = 4
+resultado = (numero1 == numero2)
+print("O resultado sa igualdade é : ", resultado)
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
