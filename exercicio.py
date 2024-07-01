@@ -70,12 +70,16 @@ import math
 # print(frase_sem)
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-data = input("Digite a data no formato dd/mm/aaaa")
-data_separada = data.split("/")
-dia = data_separada[0]
-mes = data_separada[1]
-ano = data_separada[2]
-print(f"O dia é {dia}, o mês é {mes} e o ano é {ano}")
+# data = input("Digite a data no formato dd/mm/aaaa")
+# data_separada = data.split("/")
+# dia = data_separada[0]
+# mes = data_separada[1]
+# ano = data_separada[2]
+# print(f"O dia é {dia}, o mês é {mes} e o ano é {ano}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+string1 = input("Digite a primeira String: ")
+string2 = input("Digite a segunda String: ")
+string_concatenada = string1 + string2
+print(string_concatenada)
 
