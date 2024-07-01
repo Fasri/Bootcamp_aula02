@@ -84,12 +84,17 @@ import math
 # print(string_concatenada)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
-bool1 = True
-bool2 = True
-resultado = bool1 and bool2
-print("O resultado do AND é :", resultado)
+# bool1 = True
+# bool2 = True
+# resultado = bool1 and bool2
+# print("O resultado do AND é :", resultado)
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+bool1 = False
+bool2 = False
+resultado = bool1 or bool2
+print("O resultado do OR é :", resultado)
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
