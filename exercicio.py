@@ -15,8 +15,12 @@
 # print(f"A multiplicação é {resultado}")
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-primeiro_numero = int(input("Digite o primeiro número: "))
-segundo_numero = int(input("Digite o segundo número: "))
-resultado = primeiro_numero/segundo_numero
-print(f"A divisão é {resultado}")
+# primeiro_numero = int(input("Digite o primeiro número: "))
+# segundo_numero = int(input("Digite o segundo número: "))
+# resultado = primeiro_numero/segundo_numero
+# print(f"A divisão é {resultado}")
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+numero = float(input("Digite um numero para saber seu quadrado: "))
+quadrado = numero**2
+print(f"O quadrado de {numero} é {quadrado}")
