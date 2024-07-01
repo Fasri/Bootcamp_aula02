@@ -26,11 +26,16 @@
 # print(f"O quadrado de {numero} é {quadrado}")
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
-primeiro_numero = float(input("Digite o primeiro número: "))
-segundo_numero = float(input("Digite o segundo número: "))
-print(f"A soma é {primeiro_numero+segundo_numero}")
+# primeiro_numero = float(input("Digite o primeiro número: "))
+# segundo_numero = float(input("Digite o segundo número: "))
+# print(f"A soma é {primeiro_numero+segundo_numero}")
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+primeiro_numero = int(input("Digite o primeiro número: "))
+segundo_numero = int(input("Digite o segundo número: "))
+media = (primeiro_numero+segundo_numero)/2
+print(f"A média é de {primeiro_numero} e {segundo_numero} é {media}")
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. screva um programa que calcule a área de um círculo, recebendo o raio como entrada.
