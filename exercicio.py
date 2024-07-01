@@ -4,7 +4,7 @@
 # print(f"A soma é {primeiro_numero+segundo_numero}")
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-# numero = float(input("Insira um número para saber o resto da divisão por 5: "))
+# numero = int(input("Insira um número para saber o resto da divisão por 5: "))
 # resto = numero//5
 # print(f"O resto da divisão por 5 é {resto}")
 
@@ -21,6 +21,16 @@
 # print(f"A divisão é {resultado}")
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-numero = float(input("Digite um numero para saber seu quadrado: "))
-quadrado = numero**2
-print(f"O quadrado de {numero} é {quadrado}")
+# numero = int(input("Digite um numero para saber seu quadrado: "))
+# quadrado = numero**2
+# print(f"O quadrado de {numero} é {quadrado}")
+
+# 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+primeiro_numero = float(input("Digite o primeiro número: "))
+segundo_numero = float(input("Digite o segundo número: "))
+print(f"A soma é {primeiro_numero+segundo_numero}")
+
+# 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+# 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+# 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+# 10. screva um programa que calcule a área de um círculo, recebendo o raio como entrada.
