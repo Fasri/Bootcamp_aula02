@@ -31,11 +31,16 @@
 # print(f"A soma é {primeiro_numero+segundo_numero}")
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
-primeiro_numero = int(input("Digite o primeiro número: "))
-segundo_numero = int(input("Digite o segundo número: "))
-media = (primeiro_numero+segundo_numero)/2
-print(f"A média é de {primeiro_numero} e {segundo_numero} é {media}")
+# primeiro_numero = int(input("Digite o primeiro número: "))
+# segundo_numero = int(input("Digite o segundo número: "))
+# media = (primeiro_numero+segundo_numero)/2
+# print(f"A média é de {primeiro_numero} e {segundo_numero} é {media}")
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+numero = int(input("Digite o número para calculo da pontência: "))
+expoente = int(input("Digite o qual o expoente: "))
+potencia = numero**expoente
+print(f"A potência de {numero} de expoente {expoente} é {potencia}")
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. screva um programa que calcule a área de um círculo, recebendo o raio como entrada.
