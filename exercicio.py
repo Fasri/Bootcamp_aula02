@@ -125,19 +125,40 @@ import math
 # Exercício 22: Verificador de Palíndromo
 # Crie um programa que verifica se uma palavra ou frase é um palíndromo (lê-se igualmente de trás para frente, desconsiderando espaços e pontuações). Utilize try-except para garantir que a entrada seja uma string. Dica: Utilize a função isinstance() para verificar o tipo da entrada.
 
-palavra = input("Digite uma palavra ou frase: ")
-if isinstance(palavra, str):
-    palavra = palavra.replace(" ", "").lower()
-    palavra_invertida = palavra[::-1]
-    if palavra == palavra_invertida:
-        print(f"A palavra {palavra} é palíndromo")
-    else:
-        print(f"A palavra {palavra} não é palíndromo, a palavra invertida fica {palavra_invertida}")
-else:
-    print("Entrada invalida, Por favor, digite uma palavra ou frase")
-    
+# palavra = input("Digite uma palavra ou frase: ")
+# if isinstance(palavra, str):
+#     palavra = palavra.replace(" ", "").lower()
+#     palavra_invertida = palavra[::-1]
+#     if palavra == palavra_invertida:
+#         print(f"A palavra {palavra} é palíndromo")
+#     else:
+#         print(f"A palavra {palavra} não é palíndromo, a palavra invertida fica {palavra_invertida}")
+# else:
+#     print("Entrada invalida, Por favor, digite uma palavra ou frase")
+
 # Exercício 23: Calculadora Simples
 # Desenvolva uma calculadora simples que aceite duas entradas numéricas e um operador (+, -, *, /) do usuário. Use try-except para lidar com divisões por zero e entradas não numéricas. Utilize if-elif-else para realizar a operação matemática baseada no operador fornecido. Imprima o resultado ou uma mensagem de erro apropriada.
+try:
+    num1 = float(input("Digite o primeiro numero: "))
+    num2 = float(input("Digite o segundo numero: "))
+    ope = input("Qual operação vai ser realizada? Digite +, -, x ou /")
+    if ope == "+":
+        resultado = num1 + num2
+        print(f"A soma é {resultado}")
+    elif ope == "-":
+        resultado = num1 - num2
+        print(f"A subtração é {resultado}")
+    elif ope == "x":
+        resultado = num1 * num2
+        print(f"A multiplicação é {resultado}")
+    elif ope == "/":
+        resultado = num1 / num2 and num2 != 0
+        print(f"A divisão é {resultado}")
+    else:
+        print("Operador invalido ou divisão por zero")
+
+except ValueError:
+    print("Apenas números!")
 
 # Exercício 24: Classificador de Números
 # Escreva um programa que solicite ao usuário para digitar um número. Utilize try-except para assegurar que a entrada seja numérica e utilize if-elif-else para classificar o número como "positivo", "negativo" ou "zero". Adicionalmente, identifique se o número é "par" ou "ímpar".
