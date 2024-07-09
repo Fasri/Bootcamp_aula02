@@ -162,23 +162,32 @@ import math
 
 # Exercício 24: Classificador de Números
 # Escreva um programa que solicite ao usuário para digitar um número. Utilize try-except para assegurar que a entrada seja numérica e utilize if-elif-else para classificar o número como "positivo", "negativo" ou "zero". Adicionalmente, identifique se o número é "par" ou "ímpar".
-try:
-    num = float(input("Digite um número: "))
-    if num > 0:
-        print(f"O número {num} é positivo.")
-    elif num < 0:
-        print(f"O número {num} é negativo.")
-    else:
-        print(f"O número {num} é zero.")
-    if num %2 == 0:
-        print(f"O número {num} é par.")
-    else:
-        print(f"O número {num} é ímpar.")
-except ValueError:
-    print("Digite um número!")
+# try:
+#     num = float(input("Digite um número: "))
+#     if num > 0:
+#         print(f"O número {num} é positivo.")
+#     elif num < 0:
+#         print(f"O número {num} é negativo.")
+#     else:
+#         print(f"O número {num} é zero.")
+#     if num %2 == 0:
+#         print(f"O número {num} é par.")
+#     else:
+#         print(f"O número {num} é ímpar.")
+# except ValueError:
+#     print("Digite um número!")
     
 # Exercício 25: Conversão de Tipo com Validação
 # Crie um script que solicite ao usuário uma lista de números separados por vírgula. O programa deve converter a string de entrada em uma lista de números inteiros. Utilize try-except para tratar a conversão de cada número e validar que cada elemento da lista convertida é um inteiro. Se a conversão falhar ou um elemento não for um inteiro, imprima uma mensagem de erro. Se a conversão for bem-sucedida para todos os elementos, imprima a lista de inteiros.
-
+lista_entrada = input("Digite uma lista de números separados por vírgula: ")
+lista = lista_entrada.split(",")
+lista_int = []
+try:
+    for num in lista:
+        lista_int.append(int(num.strip()))
+    print("lista de inteiros: ", lista_int)
+    print(lista)
+except:
+    print("Todos os elemementos da lista tem que ser números")
 
 
